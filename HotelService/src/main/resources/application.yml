@@ -1,0 +1,13 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/hotelservice
+    username: postgres
+    password: 27092001
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
