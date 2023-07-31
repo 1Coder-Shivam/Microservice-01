@@ -1,6 +1,6 @@
-package com.skm.user.userservice.exceptions;
+package com.skm.user.service.exceptions;
 
-import com.skm.user.userservice.payload.ApiResponse;
+import com.skm.user.service.payload.ApiResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

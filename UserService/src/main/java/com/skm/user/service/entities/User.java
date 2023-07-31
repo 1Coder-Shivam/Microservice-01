@@ -1,4 +1,4 @@
-package com.skm.user.userservice.entities;
+package com.skm.user.service.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

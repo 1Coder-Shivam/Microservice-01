@@ -1,10 +1,11 @@
-package com.skm.user.userservice.services.impl;
+package com.skm.user.service.services.impl;
 
 
-import com.skm.user.userservice.entities.User;
-import com.skm.user.userservice.exceptions.ResourceNotFoundException;
-import com.skm.user.userservice.repository.UserRepo;
-import com.skm.user.userservice.services.UserService;
+
+import com.skm.user.service.entities.User;
+import com.skm.user.service.exceptions.ResourceNotFoundException;
+import com.skm.user.service.repository.UserRepo;
+import com.skm.user.service.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

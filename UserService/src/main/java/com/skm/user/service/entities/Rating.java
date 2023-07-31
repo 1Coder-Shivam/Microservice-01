@@ -1,4 +1,4 @@
-package com.skm.user.userservice.entities;
+package com.skm.user.service.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

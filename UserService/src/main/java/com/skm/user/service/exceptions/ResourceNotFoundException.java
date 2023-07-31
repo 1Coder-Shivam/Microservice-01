@@ -1,4 +1,4 @@
-package com.skm.user.userservice.exceptions;
+package com.skm.user.service.exceptions;
 
 public class ResourceNotFoundException extends RuntimeException{
 

@@ -1,9 +1,7 @@
-package com.skm.user.userservice.services;
-
-
-import com.skm.user.userservice.entities.User;
+package com.skm.user.service.services;
 
 import java.util.List;
+import com.skm.user.service.entities.User;
 
 public interface UserService {
 
