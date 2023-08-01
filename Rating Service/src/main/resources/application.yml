@@ -3,6 +3,17 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017
       database: ratingservices
+  application:
+    name: RatingService
 
 server:
     port: 8083
+
+eureka:
+    instance:
+        prefer-ip-address: true
+    client:
+        fetch-registry: true
+        register-with-eureka: true
+        service-url:
+          defaultZone: http://localhost:8761/eureka/

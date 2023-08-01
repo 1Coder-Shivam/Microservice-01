@@ -18,7 +18,7 @@ public class RatingController {
 
     //create rating
     @PostMapping
-    public ResponseEntity<Rating> createRating(Rating rating){
+    public ResponseEntity<Rating> createRating(@RequestBody Rating rating){
         System.out.println(rating.getFeedback());
         System.out.println(rating.getHotelId());
         return ResponseEntity.status(HttpStatus.CREATED).body(ratingService.createRating(rating));
