@@ -54,10 +54,7 @@ public class UserServiceImpl implements UserService {
 
         List<Rating> ratingList = ratings.stream().map(rating -> {
             //api call to get hotel details
-//            ResponseEntity<Hotel> forEntity = restTemplate.getForEntity("http://HOTELSERVICE/hotels/" + rating.getHotelId(), Hotel.class);
             Hotel hotel = hotelService.getHotel(rating.getHotelId());
-//            logger.info("response status code: {}", forEntity.getStatusCode());
-            //set the hotel details to rating
             rating.setHotel(hotel);
             //return rating
             return rating;
